@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="TobyOverlayCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="943fa46f-76e9-45ee-88b1-bce11a3221be"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

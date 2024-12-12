@@ -49,14 +49,14 @@ Save the file before proceeding.
 ## Deployment Steps ##
 
 1. Clone this repository:
-  git clone https://github.com/Palvaran/SharePointWindowOverlay.git
+  - git clone https://github.com/Palvaran/SharePointWindowOverlay.git
 2. Install dependencies:
-  npm install
+  - npm install
 3. Build the project:
-  gulp build
+  - gulp build
 4. Bundle and package the solution:
-  gulp bundle --ship
-  gulp package-solution --ship
+  - gulp bundle --ship
+  - gulp package-solution --ship
 5. Deploy the package to your SharePoint App Catalog.
 
 ---
@@ -64,12 +64,13 @@ Save the file before proceeding.
 ## Notes for New Users ##
 
 Things to Check Before Deploying:
-config.json: Ensure the iframeUrl is set to the desired value.
-package-solution.json:
-skipFeatureDeployment must be false.
-The version number should be incremented for new builds.
-Dependencies: Run npm install to ensure all dependencies are installed.
-Test Before Production: Always test the solution in a development environment.
+
+- config.json: Ensure the iframeUrl is set to the desired value.
+- package-solution.json:
+- skipFeatureDeployment must be false.
+- The version number should be incremented for new builds.
+- Dependencies: Run npm install to ensure all dependencies are installed.
+- Test Before Production: Always test the solution in a development environment.
 
 
 
